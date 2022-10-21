@@ -9,11 +9,11 @@
 }
 
 .title {
-
-    display: block;
+    padding-top:100vw ;
+    display: inline;
     justify-content: center;
     height: 20%;
-    width: 80vw;
+    width: 100vw;
     padding-top: 0%;
     margin-bottom: 5%;
 }
@@ -26,11 +26,11 @@
 }
 
 .card {
- 
+    
     width: 21.25em;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
     border-radius: 10px;
-    padding: 25px;
+    padding: 10px;
     margin: 15px;
     transition: 0.7s ease;
 }
@@ -40,9 +40,13 @@
 }
 
 .card .icon {
-    color: #db1313;
+    background: rgba(0, 0, 0, 0.5);
+    color: #14d8ff;
+    box-shadow: 0 0 50px #14d8ff;
     font-size: 8em;
     text-align: center;
+    border-radius: 10vw ;
+    
 }
 
 .info {
@@ -52,13 +56,15 @@
 
 body{
     margin-top: 10%;
-    background-image: url("poster 2_cleanup_cleanup.jpg");
+    background-image: url("2650150.jpg");
     background-color: #000016;
     background-position: center; /* Center the image */
     background-size: cover;
-    height:750px;
+    height:0.00000000000000000000000002%;
+
+    
     background-repeat: no-repeat;
-    padding-bottom: 40%;
+ 
     
 }
 .footer {
@@ -70,4 +76,31 @@ body{
     justify-content: space-between;
     width: auto;
     height: auto;
+}
+
+.bruh{
+    
+    margin-top: 15px;
+    font-size: 15vw;
+    text-align: center;
+    font-weight: 650;
+    border-width: 20vw ;
+    
+    color: white;
+    text-shadow:
+      /* White glow */
+   
+      0 0 4px rgba(255, 255, 255, 0.695),
+      0 0 11px rgba(255, 255, 255, 0.695),
+      0 0 19px rgba(255, 255, 255, 0.695),
+      0 0 40px #14d8ff91,
+      0 0 80px #14d8ff91,
+      0 0 90px #14d8ff91,
+      0 0 100px #14d8ff91,
+      0 0 150px #14d8ff;
+    
+
+
+        
+      
 }
